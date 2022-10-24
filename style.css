@@ -1,0 +1,126 @@
+
+#mainPannel{
+    background-color:lightsteelblue;
+    border: 3px solid black;
+    padding:5%;
+    padding-top: 1%;
+    width:50%;
+    height: 100%;
+    box-sizing:border-box;
+    text-align: center;
+    display: inline-block;
+}
+
+#bldgPannel{
+    background-color:blanchedalmond;
+    border: 3px solid black;
+    box-sizing: border-box;
+    width:50%;
+    height:100%;
+    float:right;
+}
+
+#big{
+    border: 20px solid black;
+    border-radius: 100%;
+    padding: 20px;
+    font-size: 2em;
+    background-color:white;
+    margin:auto;
+    text-align: center;
+    box-shadow: 0px 5px gray;
+    cursor: pointer;
+    display:inline;
+    
+}
+#big:hover{
+    background: lightgray;
+}
+#big:active{
+    border-width: 20px;
+    background-color: black;
+    box-shadow: none;
+    transform:translateY(5px);
+}
+
+#numDisp{
+    font-size: 3em;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+#timer{
+    font-size:1.5em;
+    float:left;
+}
+
+.bldgDiv{
+    background-color:white;
+    box-sizing:border-box;
+    border: 2px solid gray;
+    margin:10px;
+    padding:10px;
+    font-size: 2em;
+    text-align: left;
+    text-shadow: 2px 2px 5px gray;
+    
+}
+
+.bldgButton{
+    border: 15px solid black;
+    border-radius: 100%;
+    padding: 15px;
+    font-size: 2em;
+    background-color:white;
+    margin:auto;
+    margin-left: 15px;
+    text-align: center;
+    box-shadow: 0px 5px gray;
+    cursor: pointer;
+    display:inline;
+    vertical-align: middle;
+}
+.bldgButton:hover{
+    background: lightgray;
+}
+.bldgButton:active{
+    background-color: lightgray;
+    box-shadow: none;
+    transform:translateY(5px);
+}
+
+.amtLabel{
+    box-sizing: border-box;
+    width:auto;
+    display: inline-block;
+    vertical-align:middle;
+}
+
+.bldgInfo{
+    display:block; 
+    margin:5px;
+    width:70%;
+    /* background-color: lightgray;
+    border: 2px solid gray; */
+}
+
+.bldgIC{
+    display: inline-block;
+    border: 2px none black;
+    box-sizing:border-box;
+    vertical-align: middle;
+    margin:5px;
+    width:80%;
+
+}
+
+#production{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#about{
+    font-size:1em;
+    vertical-align: bottom;
+}
